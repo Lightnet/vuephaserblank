@@ -11,7 +11,7 @@ Created by: Lightnet
  * Nodejs javascript
 
 # Information:
-  Design to be simple and game design test build.
+  Design to be simple and blank application design test build. Phaser simple blank added for test.
 
   Current mode Development / Debug mode that is not config for production yet.
 
