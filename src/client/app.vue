@@ -3,23 +3,18 @@
         <div class="container">
 			<component :is="currentView" ></component>
 		</div>
-
         <div id="dialog_message" title="Message">
             <p>{{dialogmessage}}</p>
         </div>
     </div>
 </template>
-
 <script>
 import $ from 'jquery';
-
 import Index from './components/Index.vue';
 import Access from './components/Access.vue';
 import Register from './components/Register.vue';
 import Forgot from './components/Forgot.vue';
-
 import GGame from './components/GGame.vue';
-
 import Account from './components/Account.vue';
 import Messages from './components/GMessages.vue';
 import Forum from './components/GForum.vue';
@@ -28,14 +23,12 @@ import Documents from './components/GDocuments.vue';
 import ToDoList from './components/GToDoList.vue';
 
 import bus from './bus';
-
 export default {
     components: {
         'index':Index,
         'access':Access,
         'register':Register,
         'forgot':Forgot,
-
         'account':Account,
         'messages':Messages,
         'forum':Forum,
@@ -43,7 +36,6 @@ export default {
         'documents':Documents,
         'todolist':ToDoList,
         'Game':GGame,
-
     },
     data () {
         return {
@@ -72,11 +64,9 @@ export default {
             if(event == 'index'){
 				this.currentView = 'index';
             }
-
             if(event == 'game'){
 				this.currentView = 'game';
             }
-
             if(event == 'access'){
 				this.currentView = 'access';
             }
@@ -86,11 +76,9 @@ export default {
             if(event == 'forgot'){
 				this.currentView = 'forgot';
             }
-
             if(event == 'account'){
 				this.currentView = 'account';
             }
-
             if(event == 'chat'){
 				this.currentView = 'chat';
             }

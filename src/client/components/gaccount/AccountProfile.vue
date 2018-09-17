@@ -1,5 +1,6 @@
 <template>
     <div>
+        Profile: (Press Enter to update profile.)
         <table>
         <tr>
             <td>Alias</td>
@@ -18,6 +19,7 @@
             <td><input v-on:keyup.13="inputskills" v-model="skills"></td>
         </tr>
         </table>
+        
     </div>
 </template>
 <script>
@@ -48,8 +50,6 @@ export default {
         //pkey = await Gun.SEA.decrypt(pkey, mix);
         //let val = await Gun.SEA.decrypt(data, pkey);
         //console.log(val);
-
-
     },
     methods: {
         async inputalias(event){

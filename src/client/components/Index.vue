@@ -25,7 +25,6 @@ import GameApp from '../game/phasergame';
 //import AccountPassPhraseHint from './gaccount/AccountPassPhraseHint.vue';
 //import AccountProfile from './gaccount/AccountProfile.vue';
 //import AccountSearch from './gaccount/AccountSearch.vue';
-
 //import AliasContacts from './gaccount/AliasContacts.vue';
 import AlphaTest from './AlphaTest.vue';
 //import Phaser from 'Phaser';
