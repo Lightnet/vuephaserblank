@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Phaser from 'Phaser';
+import Phaser from 'phaser';
 
 export default {
     components: {
