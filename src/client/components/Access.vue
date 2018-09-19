@@ -20,12 +20,17 @@
                 </tr>
             </table>
         </div>
-        
+        <PhaserApp />
     </div>
 </template>
 
 <script>
+import PhaserApp from '../phaserapp/PhaserApp';
+
 export default {
+    components: {
+        PhaserApp
+    },
     data() {
         return {
             msg: 'Login!',
