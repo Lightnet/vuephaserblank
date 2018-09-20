@@ -9,7 +9,7 @@ var browserSync = require('browser-sync').create();
 var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 //var CompressionPlugin = require("compression-webpack-plugin");
 //const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader')
+const { VueLoaderPlugin } = require('vue-loader');
 
 var server = null;
 
